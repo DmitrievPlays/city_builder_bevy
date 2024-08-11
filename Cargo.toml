@@ -1,0 +1,20 @@
+[package]
+name = "City_Builder_Game"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.14.1", default-features = false, features = [
+    "bevy_gltf", 
+    "bevy_winit", 
+    "bevy_scene", 
+    "bevy_render", 
+    "png",
+    "bevy_sprite", 
+    "bevy_pbr",
+    "bevy_text",
+    "bevy_ui",
+    "default_font",
+    "tonemapping_luts",
+]}
+bevy-inspector-egui = "0.25"
